@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       <div className="text-center py-5 text-white text-4xl mb-10 bg-black font-sans font-bold">Git repository Activity Tracker</div>
-      <div className="mx-20">
+      <div className="mx-20 mb-20">
         {
           gitActions && gitActions.map((gitAction, index)=>{
             return <ListItem gitAction={gitAction} key={index}/>
